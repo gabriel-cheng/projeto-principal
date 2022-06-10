@@ -1,4 +1,113 @@
-.primary-section-contents {
-    /* position: sticky; */
-    margin-top: 120px;
+main {
+    margin-top: 110px;
 }
+
+.main-contents {
+    background-color: black;
+    color: white;
+    padding: 40px 0 0 0;
+}
+
+/* Sessão primária */
+
+.primary-section {
+    margin: 0 0 70px 0;
+}
+
+.primary-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.primary-section-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.primary-section-content-1, .primary-section-content-2, .primary-section-content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+    width: 20vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Fim sessão primária */
+
+/* Sessão secundária */
+
+.secondary-section {
+    margin: 80px 0 0 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.secondary-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-section-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+
+.secondary-section-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-section-list-items li {
+    list-style-type: none;
+    width: 40vw;
+}
+
+.secondary-section-list-items :not(:last-child) { /* Aplica o efeito em todos menos no último item (criança) */
+    margin: 0 0 20px 0;
+}
+
+/* Fim sessão secundária */
+
+/* Sessão terciária */
+
+.terciary-section {
+    margin: 80px 0 0 0;
+}
+
+.terciary-section-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-1, .image-2, .image-3, .image-4 :not(:last-child) {
+    margin: 0 10px 0 0;
+}
+
+.image-1, .image-2, .image-3, .image-4 > img{
+    height: 100%;
+}
+
+.image-item-1:hover {
+    cursor: pointer;
+}
+
+/* Fim sessão terciária */
