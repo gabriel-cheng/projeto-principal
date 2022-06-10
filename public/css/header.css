@@ -1,0 +1,40 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    width: 97vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'forest', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.555);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0; /* usar sempre isso pro cabeçalho para de seguir o main */
+    font-weight: 600;
+}
+
+.header-navigation-content {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.header-navigation-content a {
+    padding: 15px 20px;
+}
+
+.header-navigation-content a:hover {
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+.header-content-title {
+    font-size: 1.5em;
+}
